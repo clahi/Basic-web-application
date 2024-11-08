@@ -18,4 +18,4 @@ AWS Amplify offers a Git-based CI/CD workflow for building, deploying, and hosti
 
 ## Key concepts
 - React Application: React is a JavaScript library that enables developers to quickly build performant single-page applications.
-- Git: Git is a version control system that allows developers to store files, maintain and update relationships between files and directories, and track versions and changes to the files.
+- Git: Git is a version control system that allows developers to store files, maintain and update relationships between files and directories, and track versions and changes to the files
