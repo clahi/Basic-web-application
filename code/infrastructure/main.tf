@@ -25,12 +25,12 @@ resource "aws_amplify_app" "profile_app" {
         preBuild:
           commands:
             - cd code/frontEnd/profilesapp
-            - yarn install
+            - npm ci
         build:
           commands:
-            - yarn run build
+            - npm run build
       artifacts:
-        baseDirectory: build
+        baseDirectory: dist
         files:
           - '**/*'
       cache:
