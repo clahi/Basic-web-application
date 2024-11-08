@@ -24,6 +24,7 @@ resource "aws_amplify_app" "profile_app" {
       phases:
         preBuild:
           commands:
+            - cd code/frontEnd/profilesapp
             - yarn install
         build:
           commands:
