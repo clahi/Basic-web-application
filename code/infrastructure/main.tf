@@ -65,3 +65,16 @@ resource "aws_amplify_app" "profile_app" {
     enable_auto_build = true
   }
 }
+
+resource "aws_amplify_branch" "main" {
+  app_id      = aws_amplify_app.profile_app.id
+  branch_name = "main"
+
+  enable_auto_build = true
+
+  stage = "PRODUCTION"
+
+  environment_variables = {
+    "ENV" = "production"
+  }
+}
