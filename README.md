@@ -11,3 +11,11 @@ In this project we will:
 ## Application architecture
 The following diagram provides a visual representation of the services used in this project and how they are connected. This application uses AWS Amplify, GraphQL API, AWS Lambda, and Amazon DynamoDB.
 ![Architecture](images/architecture.PNG)
+
+# Create a Web App
+## Overview
+AWS Amplify offers a Git-based CI/CD workflow for building, deploying, and hosting single-page web applications or static sites with backends. When connected to a Git repository, Amplify determines the build settings for both the frontend framework and any configured backend resources, and automatically deploys updates with every code commit.
+
+## Key concepts
+- React Application: React is a JavaScript library that enables developers to quickly build performant single-page applications.
+- Git: Git is a version control system that allows developers to store files, maintain and update relationships between files and directories, and track versions and changes to the files.
