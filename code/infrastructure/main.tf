@@ -30,7 +30,7 @@ resource "aws_amplify_app" "profile_app" {
           commands:
             - npm run build
       artifacts:
-        baseDirectory: dist
+        baseDirectory: code/frontEnd/profilesapp/dist
         files:
           - '**/*'
       cache:
